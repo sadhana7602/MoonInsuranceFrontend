@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { loginUser } from '../loginUser'; // Import loginUser class
 import { HttpClient } from '@angular/common/http';
+import { PolicyProduct } from '../model/policyproduct';
 
 @Injectable({
   providedIn: 'root'
@@ -17,6 +18,25 @@ export class ApiServiceService {
 
   signup(bodydata:any): Observable<boolean> {
     return this.http.post<boolean>("http://localhost:9090/customer/add",bodydata); // Pass user object
+  }
+
+  getHealthData():Observable<PolicyProduct[]>{
+    return this.http.get<PolicyProduct[]>("http://localhost:9090/health-insurance/healthall");
+  }
+  getHomeData():Observable<PolicyProduct[]>{
+    return this.http.get<PolicyProduct[]>("http://localhost:9090/home-insurance/homeall");
+  }
+  getVehicleData():Observable<PolicyProduct[]>{
+    return this.http.get<PolicyProduct[]>("http://localhost:9090/vehicle-insurance/vehicleall");
+  }
+  buyHealthPolicy(bodydata:any): Observable<boolean> {
+    return this.http.post<boolean>("http://localhost:9090/health-insurance/add",bodydata); // Pass user object
+  }
+  buyAutoPolicy(bodydata:any): Observable<boolean> {
+    return this.http.post<boolean>("http://localhost:9090/vehicle-insurance/add",bodydata); // Pass user object
+  }
+  buyHomePolicy(bodydata:any): Observable<boolean> {
+    return this.http.post<boolean>("http://localhost:9090/home-insurance/add",bodydata); // Pass user object
   }
 }
 

@@ -15,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HealthComponent } from './health/health.component';
 import { AutoComponent } from './auto/auto.component';
 import { HomepropertyComponent } from './homeproperty/homeproperty.component';
+import { BuypolicyComponent } from './buypolicy/buypolicy.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { HomepropertyComponent } from './homeproperty/homeproperty.component';
     ClaimsModuleComponent,
     HealthComponent,
     AutoComponent,
-    HomepropertyComponent
+    HomepropertyComponent,
+    BuypolicyComponent
   ],
   imports: [
     BrowserModule,

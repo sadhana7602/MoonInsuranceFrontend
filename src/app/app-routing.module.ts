@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
@@ -11,6 +12,7 @@ import { HealthComponent } from './health/health.component';
 import { AutoComponent } from './auto/auto.component';
 import { HomepropertyComponent } from './homeproperty/homeproperty.component';
 import { AppComponent } from './app.component';
+import { BuypolicyComponent } from './buypolicy/buypolicy.component';
 
 const routes: Routes = [
   {path:'home',component:HomeComponent},
@@ -22,7 +24,8 @@ const routes: Routes = [
   {path:'health',component:HealthComponent},
   {path:'auto',component:AutoComponent},
   {path:'homeproperty',component:HomepropertyComponent},
-  {path:'', component:AppComponent},
+  {path:'', component:HomeComponent},
+  {path:'buypolicy', component:BuypolicyComponent},
 
 
 ];
