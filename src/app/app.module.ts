@@ -18,6 +18,8 @@ import { HomepropertyComponent } from './homeproperty/homeproperty.component';
 import { BuypolicyComponent } from './buypolicy/buypolicy.component';
 import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
+import { ApproveclaimComponent } from './approveclaim/approveclaim.component';
+import { TrackclaimComponent } from './trackclaim/trackclaim.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { AdmindashboardComponent } from './admindashboard/admindashboard.compone
     HomepropertyComponent,
     BuypolicyComponent,
     AdminloginComponent,
-    AdmindashboardComponent
+    AdmindashboardComponent,
+    ApproveclaimComponent,
+    TrackclaimComponent
   ],
   imports: [
     BrowserModule,

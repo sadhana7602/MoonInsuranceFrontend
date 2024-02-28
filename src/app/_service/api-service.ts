@@ -4,6 +4,7 @@ import { of } from 'rxjs';
 import { loginUser } from '../loginUser'; // Import loginUser class
 import { HttpClient } from '@angular/common/http';
 import { PolicyProduct } from '../model/policyproduct';
+import { Claim } from '../model/claim';
 
 @Injectable({
   providedIn: 'root'
@@ -33,7 +34,7 @@ export class ApiServiceService {
   signup(bodydata:any): Observable<boolean> {
     return this.http.post<boolean>("http://localhost:9090/customer/add",bodydata); // Pass user object
   }
-
+  
   getHealthData():Observable<PolicyProduct[]>{
     return this.http.get<PolicyProduct[]>("http://localhost:9090/health-insurance/healthall");
   }
@@ -43,6 +44,12 @@ export class ApiServiceService {
   getVehicleData():Observable<PolicyProduct[]>{
     return this.http.get<PolicyProduct[]>("http://localhost:9090/vehicle-insurance/vehicleall");
   }
+  getClaimData():Observable<Claim[]>{
+    return this.http.get<Claim[]>("http://localhost:9090/claims/all");
+  }
+  getClaimDataForCustomer():Observable<Claim[]>{
+    return this.http.get<Claim[]>("http://localhost:9090/claims/allbycustomer");
+  }
   buyHealthPolicy(bodydata:any): Observable<boolean> {
     return this.http.post<boolean>("http://localhost:9090/health-insurance/add",bodydata); // Pass user object
   }
@@ -51,6 +58,12 @@ export class ApiServiceService {
   }
   buyHomePolicy(bodydata:any): Observable<boolean> {
     return this.http.post<boolean>("http://localhost:9090/home-insurance/add",bodydata); // Pass user object
+  }
+  RegClaim(bodydata:any): Observable<boolean> {
+    return this.http.post<boolean>("http://localhost:9090/claims/add",bodydata); // Pass user object
+  }
+  ClaimValidation(bodydata:any): Observable<boolean> {
+    return this.http.post<boolean>("http://localhost:9090/claims/adminvalidate",bodydata); // Pass user object
   }
 }
 

@@ -1,0 +1,44 @@
+<div >
+    <table >
+      <thead>
+        <tr>
+          <th>Claim Id</th>
+          <th>Policy Id</th>
+          <th>Product Id</th>
+          <th>Customer Id</th>
+          <th>Claim Entry Date</th>
+          <th>Cause of loss</th>
+          <th>Claim Amount</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let hl of hlist">
+        <tr>
+          <td>{{hl.claimId}}</td>
+          <td>{{hl.policyId}}</td>
+          <td>{{hl.productId}}</td>
+          <td>{{hl.customerId}}</td>
+          <td>{{hl.claimEntryDate}}</td>
+          <td>{{hl.causeOfLoss}}</td>
+          <td>{{hl.claimAmount}}</td>
+          <td>{{hl.status}}</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>Approve Claim</h2>
+        <form (ngSubmit)="submitForm()" #approveClaimForm="ngForm">
+          <div class="form-group">
+            <label for="claimId">Claim ID</label>
+            <input type="number" class="form-control" id="claimId" name="claimId" [(ngModel)]="claimId" required>
+          </div>
+          <div class="form-group">
+            <label for="policyId">Policy ID</label>
+            <input type="number" class="form-control" id="policyId" name="policyId" [(ngModel)]="policyId" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Validate Claim</button>
+        </form>
+      </div>
+      

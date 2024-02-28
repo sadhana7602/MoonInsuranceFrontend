@@ -1,1 +1,32 @@
-<p>claims-module works!</p>
+<div class="container">
+    <h2>Claim Form</h2>
+    <form (ngSubmit)="submitForm()" #claimForm="ngForm">
+      
+      <div class="form-group">
+        <label for="policyId">Policy ID</label>
+        <input type="number" class="form-control" id="policyId" name="policyId" [(ngModel)]="policyId" required>
+      </div>
+      <div class="form-group">
+        <label for="productId">Product ID</label>
+        <input type="number" class="form-control" id="productId" name="productId" [(ngModel)]="productId" required>
+      </div>
+      <div class="form-group">
+        <label for="customerId">Customer ID</label>
+        <input type="number" class="form-control" id="customerId" name="customerId" [(ngModel)]="customerId" required>
+      </div>
+      <div class="form-group">
+        <label for="claimEntryDate">Claim Entry Date</label>
+        <input type="date" class="form-control" id="claimEntryDate" name="claimEntryDate" [(ngModel)]="claimEntryDate" required>
+      </div>
+      <div class="form-group">
+        <label for="causeOfLoss">Cause of Loss</label>
+        <input type="text" class="form-control" id="causeOfLoss" name="causeOfLoss" [(ngModel)]="causeOfLoss" required>
+      </div>
+      <div class="form-group">
+        <label for="claimAmount">Claim Amount</label>
+        <input type="number" class="form-control" id="claimAmount" name="claimAmount" [(ngModel)]="claimAmount" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  

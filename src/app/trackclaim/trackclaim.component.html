@@ -1,0 +1,28 @@
+<div >
+    <table >
+      <thead>
+        <tr>
+          <th>Claim Id</th>
+          <th>Policy Id</th>
+          <th>Product Id</th>
+          <th>Customer Id</th>
+          <th>Claim Entry Date</th>
+          <th>Cause of loss</th>
+          <th>Claim Amount</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let hl of hlist">
+        <tr>
+          <td>{{hl.claimId}}</td>
+          <td>{{hl.policyId}}</td>
+          <td>{{hl.productId}}</td>
+          <td>{{hl.customerId}}</td>
+          <td>{{hl.claimEntryDate}}</td>
+          <td>{{hl.causeOfLoss}}</td>
+          <td>{{hl.claimAmount}}</td>
+          <td>{{hl.status}}</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>

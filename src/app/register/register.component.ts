@@ -8,12 +8,13 @@ import { ApiServiceService } from '../_service/api-service';
   styleUrl: './register.component.css'
 })
 export class RegisterComponent implements OnInit {
-  name: string = '';
-  dob: string = '';
-  email: string = '';
-  phone: number=0;
-  password: string = '';
-  address: string = '';
+  
+  name: string |undefined;
+  dob: string |undefined;
+  email: string |undefined;
+  phone: number|undefined;
+  password: string|undefined;
+  address: string |undefined;
 
 
   constructor(private router: Router,private apiService: ApiServiceService){}

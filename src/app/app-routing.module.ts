@@ -15,6 +15,9 @@ import { AppComponent } from './app.component';
 import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { BuypolicyComponent } from './buypolicy/buypolicy.component';
 import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
+import { ApproveclaimComponent } from './approveclaim/approveclaim.component';
+import { TrackclaimComponent } from './trackclaim/trackclaim.component';
+//import { ClaimsModuleComponent } from './claims-module/claims-module.component';
 
 const routes: Routes = [
   {path:'home',component:HomeComponent},
@@ -29,7 +32,11 @@ const routes: Routes = [
   {path:'', component:HomeComponent},
   {path:'buypolicy', component:BuypolicyComponent},
   {path:'adminlogin', component:AdminloginComponent},
-  {path:'admindashboard', component:AdmindashboardComponent}
+  {path:'admindashboard', component:AdmindashboardComponent},
+  {path:'claims-module', component:ClaimsModuleComponent},
+  {path:'approveclaim', component:ApproveclaimComponent},
+  {path:'trackclaim', component:TrackclaimComponent}
+
 
 
 ];
