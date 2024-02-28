@@ -16,6 +16,8 @@ import { HealthComponent } from './health/health.component';
 import { AutoComponent } from './auto/auto.component';
 import { HomepropertyComponent } from './homeproperty/homeproperty.component';
 import { BuypolicyComponent } from './buypolicy/buypolicy.component';
+import { AdminloginComponent } from './adminlogin/adminlogin.component';
+import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { BuypolicyComponent } from './buypolicy/buypolicy.component';
     HealthComponent,
     AutoComponent,
     HomepropertyComponent,
-    BuypolicyComponent
+    BuypolicyComponent,
+    AdminloginComponent,
+    AdmindashboardComponent
   ],
   imports: [
     BrowserModule,

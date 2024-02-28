@@ -12,7 +12,9 @@ import { HealthComponent } from './health/health.component';
 import { AutoComponent } from './auto/auto.component';
 import { HomepropertyComponent } from './homeproperty/homeproperty.component';
 import { AppComponent } from './app.component';
+import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { BuypolicyComponent } from './buypolicy/buypolicy.component';
+import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
 
 const routes: Routes = [
   {path:'home',component:HomeComponent},
@@ -26,6 +28,8 @@ const routes: Routes = [
   {path:'homeproperty',component:HomepropertyComponent},
   {path:'', component:HomeComponent},
   {path:'buypolicy', component:BuypolicyComponent},
+  {path:'adminlogin', component:AdminloginComponent},
+  {path:'admindashboard', component:AdmindashboardComponent}
 
 
 ];

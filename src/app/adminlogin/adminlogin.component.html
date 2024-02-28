@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="/InsuranceApp/src/app/login/login.component.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="login-form" action="#">
+      <div class="input-group">
+        <label for="username">Email</label>
+        <input type="text" id="email" name="email" placeholder="Enter your username" required [(ngModel)]="email">
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required [(ngModel)]="password">
+      </div>
+      <button type="submit" class="btn" id="login-btn" (click)="adminlogin()">Login</button>
+      <div id="login-loader" class="loader"></div>
+      <div class="register-link">Don't have an account? <a href="register.html">Register</a></div>
+    </form>
+  </div>
+
+  <script src="/InsuranceApp/src/app/login/scripts/script.js"></script>
+  <router-outlet></router-outlet>
+</body>
+</html>
+
