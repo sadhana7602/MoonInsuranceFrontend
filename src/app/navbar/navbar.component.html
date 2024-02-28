@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Example</title>
+  <style>
+    /* Some basic styling for demonstration purposes */
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    nav ul li {
+      margin-right: 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .logo {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .tabs {
+      display: flex;
+      align-items: center;
+    }
+    .tabs li {
+      margin-right: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <span class="logo">Moon Insurance</span>
+  <ul>
+    <!-- <ng-container *ngIf="this.auth.isAuth();then notAuthuser;else notAuthuser">
+    </ng-container> -->
+    <!-- <ng-template #notAuthuser> -->
+      <li><a href="javascript:void(0);" routerLink="/login">Login/</a></li>
+      <li><a href="javascript:void(0);" routerLink="/register">Register</a></li>
+    <!-- </ng-template> -->
+    <!-- <ng-template #Authuser> -->
+      <!-- <li><a href="javascript:void(0);" routerLink="/dashboard">Dashboard</a></li> -->
+      <li><a href="javascript:void(0);" routerLink="/home">Home</a></li>
+      <li><a href="javascript:void(0);" >Logout</a></li>
+    <!-- </ng-template> -->
+  </ul>
+  <ul class="tabs">
+    <!-- <li><a href="javascript:void(0);" routerLink="/policy">Policy</a></li>
+    <li><a href="javascript:void(0);" routerLink="/claim">Claims</a></li>
+    <li><a href="javascript:void(0);">Support</a></li>
+    <li><a href="#">Login / Register</a></li> -->
+    
+  </ul>
+</nav>
+
+<!-- Your content here -->
+
+</body>
+</html>
