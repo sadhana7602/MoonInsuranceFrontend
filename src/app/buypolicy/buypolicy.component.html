@@ -1,13 +1,84 @@
-<h1>SELECT POLICY</h1>
+<app-navbar></app-navbar>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Policies</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Additional custom styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: rgba(31, 213, 219, 0.815);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 50px; /* Added margin to create space between the title and buttons */
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      margin: 10px;
+      text-align: center;
+    }
+    .card i {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .button {
+      background-color: #0072bc;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #00508f;
+    }
+  </style>
+</head>
+<body>
+  <h1>Policies</h1>
+  <div class="button-container">
+    <div class="card">
+      <i class="fas fa-user-md"></i>
+      <button class="button" routerLink="/health">Health</button>
+    </div>
+    <div class="card">
+      <i class="fas fa-car"></i>
+      <button class="button" routerLink="/auto">Auto</button>
+    </div>
+    <div class="card">
+      <i class="fas fa-home"></i>
+      <button class="button" routerLink="/homeproperty">Home</button>
+    </div>
+  </div>
 
-<nav>
-  <ul class="button-container">
-    <button class="button" routerLink="/health">Health</button>
-    <button class="button" routerLink="/auto">Auto</button>
-    <button class="button" routerLink="/homeproperty">Home</button>
-    
-  </ul>
+  <router-outlet></router-outlet>
 
-</nav>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
 
-<router-outlet></router-outlet>
+<app-footer></app-footer>

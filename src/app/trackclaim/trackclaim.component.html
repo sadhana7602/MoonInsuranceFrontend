@@ -1,4 +1,4 @@
-<div >
+<!--<div >
     <table >
       <thead>
         <tr>
@@ -25,4 +25,112 @@
         </tr>
       </tbody>
     </table>
-    </div>
+    </div>-->
+
+
+    <app-navbar></app-navbar>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Track Claim</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+      <style>
+        /* Additional custom styling */
+        body {
+          font-family: Arial, sans-serif;
+          background-color: rgba(31, 213, 219, 0.815); /* Light gray background */
+          padding-top: 50px; /* Added padding to separate the card from the top */
+        }
+        .container {
+          max-width: 800px; /* Adjust as needed */
+          margin: auto;
+        }
+        h2 {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+        .title-icon {
+          margin-right: 10px;
+        }
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-bottom: 20px;
+        }
+        table th, table td {
+          padding: 10px;
+          border: 1px solid #dee2e6;
+        }
+        .form-group input[type="number"],
+        .form-group input[type="text"],
+        .form-group select,
+        .form-group input[type="date"] {
+          width: 100%;
+          padding: 10px;
+          border: 1px solid #ced4da;
+          border-radius: 5px;
+          transition: box-shadow 0.3s;
+        }
+        .form-group input[type="number"]:focus,
+        .form-group input[type="text"]:focus,
+        .form-group select:focus,
+        .form-group input[type="date"]:focus {
+          outline: none;
+          box-shadow: 0 0 10px #007bff; /* Glowing effect */
+        }
+        .btn-primary {
+          background-color: #007bff;
+          color: #fff;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+        }
+        .btn-primary:hover {
+          background-color: #0056b3; /* Darker shade on hover */
+        }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <h2><i class="fas fa-clipboard-check title-icon"></i> Track Claim</h2>
+        <div >
+          <table >
+            <thead>
+              <tr>
+                <th>Claim Id</th>
+                <th>Policy Id</th>
+                <th>Product Id</th>
+                <th>Customer Id</th>
+                <th>Claim Entry Date</th>
+                <th>Cause of Loss</th>
+                <th>Claim Amount</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody *ngFor="let hl of hlist">
+              <tr>
+                <td>{{hl.claimId}}</td>
+                <td>{{hl.policyId}}</td>
+                <td>{{hl.productId}}</td>
+                <td>{{hl.customerId}}</td>
+                <td>{{hl.claimEntryDate}}</td>
+                <td>{{hl.causeOfLoss}}</td>
+                <td>{{hl.claimAmount}}</td>
+                <td>{{hl.status}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </body>
+    </html>
+    <app-footer></app-footer>
+
+

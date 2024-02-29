@@ -1,15 +1,94 @@
-<h1>WELCOME TO DASHBOARD</h1>
-
-<nav>
+<app-navbar></app-navbar>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Additional custom styling for dashboard */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: rgba(31, 213, 219, 0.815);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    h1 {
+      text-align: center;
+      
+      margin-bottom: 50px; /* Added margin to create space between the title and cards */
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin-top: auto; /* Aligns cards to the bottom */
+    }
+    .card {
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+      margin: 0 10px;
+    }
+    .card-body {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>WELCOME TO DASHBOARD</h1>
   <ul class="button-container">
-    <button class="button" routerLink="/buypolicy">Buy Policy</button>
-    <button class="button" routerLink="/view-policy">View Policy</button>
-    <button class="button" routerLink="/claims-module">Apply Claim</button>
-    <button class="button" routerLink="/trackclaim">Track Claim</button>
-    <button class="button" routerLink="/query">Ask Question</button>
-    <button class="button" routerLink="/view-response">View Response</button>
+    <li class="card">
+      <div class="card-body">
+        <i class="fas fa-shopping-cart fa-3x mb-3"></i>
+        <button class="btn btn-primary" routerLink="/buypolicy">Buy Policy</button>
+      </div>
+    </li>
+    <li class="card">
+      <div class="card-body">
+        <i class="fas fa-file-alt fa-3x mb-3"></i>
+        <button class="btn btn-primary" routerLink="/view-policy">View Policy</button>
+      </div>
+    </li>
+    <li class="card">
+      <div class="card-body">
+        <i class="fas fa-clipboard-list fa-3x mb-3"></i>
+        <button class="btn btn-primary" routerLink="/claims-module">Apply Claim</button>
+      </div>
+    </li>
+    <li class="card">
+      <div class="card-body">
+        <i class="fas fa-search fa-3x mb-3"></i>
+        <button class="btn btn-primary" routerLink="/trackclaim">Track Claim</button>
+      </div>
+    </li>
+    <li class="card">
+      <div class="card-body">
+        <i class="fas fa-question-circle fa-3x mb-3"></i>
+        <button class="btn btn-primary" routerLink="/query">Ask Question</button>
+      </div>
+    </li>
+    <li class="card">
+      <div class="card-body">
+        <i class="fas fa-envelope fa-3x mb-3"></i>
+        <button class="btn btn-primary" routerLink="/view-response">View Response</button>
+      </div>
+    </li>
   </ul>
 
-</nav>
+  <router-outlet></router-outlet>
 
-<router-outlet></router-outlet>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+<app-footer></app-footer>

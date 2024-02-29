@@ -22,6 +22,7 @@ import { ApproveclaimComponent } from './approveclaim/approveclaim.component';
 import { TrackclaimComponent } from './trackclaim/trackclaim.component';
 import { QueryComponent } from './query/query.component';
 import { QueryresponseComponent } from './queryresponse/queryresponse.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { QueryresponseComponent } from './queryresponse/queryresponse.component'
     ApproveclaimComponent,
     TrackclaimComponent,
     QueryComponent,
-    QueryresponseComponent
+    QueryresponseComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
