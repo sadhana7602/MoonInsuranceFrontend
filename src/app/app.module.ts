@@ -20,6 +20,8 @@ import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
 import { ApproveclaimComponent } from './approveclaim/approveclaim.component';
 import { TrackclaimComponent } from './trackclaim/trackclaim.component';
+import { QueryComponent } from './query/query.component';
+import { QueryresponseComponent } from './queryresponse/queryresponse.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { TrackclaimComponent } from './trackclaim/trackclaim.component';
     AdminloginComponent,
     AdmindashboardComponent,
     ApproveclaimComponent,
-    TrackclaimComponent
+    TrackclaimComponent,
+    QueryComponent,
+    QueryresponseComponent
   ],
   imports: [
     BrowserModule,

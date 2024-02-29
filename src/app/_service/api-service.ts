@@ -47,9 +47,7 @@ export class ApiServiceService {
   getClaimData():Observable<Claim[]>{
     return this.http.get<Claim[]>("http://localhost:9090/claims/all");
   }
-  getClaimDataForCustomer():Observable<Claim[]>{
-    return this.http.get<Claim[]>("http://localhost:9090/claims/allbycustomer");
-  }
+  
   buyHealthPolicy(bodydata:any): Observable<boolean> {
     return this.http.post<boolean>("http://localhost:9090/health-insurance/add",bodydata); // Pass user object
   }
@@ -64,6 +62,12 @@ export class ApiServiceService {
   }
   ClaimValidation(bodydata:any): Observable<boolean> {
     return this.http.post<boolean>("http://localhost:9090/claims/adminvalidate",bodydata); // Pass user object
+  }
+  addQuery(bodydata:any): Observable<boolean> {
+    return this.http.post<boolean>("http://localhost:9090/queries/add",bodydata); // Pass user object
+  }
+  addResponse(id:number, bodydata:string): Observable<boolean> {
+    return this.http.post<boolean>("http://localhost:9090/queries/"+id+"/admin-answer",bodydata); // Pass user object
   }
 }
 

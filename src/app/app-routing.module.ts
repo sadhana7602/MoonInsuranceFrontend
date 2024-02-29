@@ -17,6 +17,8 @@ import { BuypolicyComponent } from './buypolicy/buypolicy.component';
 import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
 import { ApproveclaimComponent } from './approveclaim/approveclaim.component';
 import { TrackclaimComponent } from './trackclaim/trackclaim.component';
+import { QueryresponseComponent } from './queryresponse/queryresponse.component';
+import { QueryComponent } from './query/query.component';
 //import { ClaimsModuleComponent } from './claims-module/claims-module.component';
 
 const routes: Routes = [
@@ -35,7 +37,10 @@ const routes: Routes = [
   {path:'admindashboard', component:AdmindashboardComponent},
   {path:'claims-module', component:ClaimsModuleComponent},
   {path:'approveclaim', component:ApproveclaimComponent},
-  {path:'trackclaim', component:TrackclaimComponent}
+  {path:'trackclaim', component:TrackclaimComponent},
+  {path:'query', component:QueryComponent},
+  {path:'queryresponse', component:QueryresponseComponent}
+
 
 
 

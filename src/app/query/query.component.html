@@ -1,0 +1,23 @@
+<div class="container">
+    <h2>Query Form</h2>
+    <form (ngSubmit)="submitForm()" #healthForm="ngForm">
+    <div class="form-group">
+    <label for="productId">Query ID</label>
+    <input type="number" class="form-control" id="queryId" name="queryId" [(ngModel)]="queryId" required>
+    </div>
+    <div class="form-group">
+    <label for="customerId">Customer ID</label>
+    <input type="number" class="form-control" id="customerId" name="customerId" [(ngModel)]="customerId" required>
+    </div>
+    <div class="form-group">
+    <label for="customerId">Policy No</label>
+    <input type="number" class="form-control" id="policyNo" name="policyNo" [(ngModel)]="policyNo" required>
+    </div>
+    <div class="form-group">
+    <label for="nominee">Question</label>
+    <input type="text" class="form-control" id="question" name="question" [(ngModel)]="question" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+    
