@@ -33,7 +33,7 @@ export class ClaimsModuleComponent {
     this.apiService.RegClaim(bodydata).subscribe((response)=>{
         console.log(response);
         if(response===true){
-          alert("Product added in your Cart Successfully!!!");
+          alert("Claim registered Successfully!!!");
           this.customerId=undefined;
           this.productId=undefined;
           this.claimEntryDate=undefined;

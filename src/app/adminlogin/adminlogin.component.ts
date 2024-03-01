@@ -29,7 +29,7 @@ adminlogin(){
     console.log(resultData);
     console.log(typeof resultData);
 
-    if (resultData)
+    if (resultData=="true")
     {
       console.log("I am in");
       this.router.navigateByUrl('/admindashboard');

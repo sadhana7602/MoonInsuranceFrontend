@@ -32,7 +32,7 @@
     }
     .tabs {
       display: flex;
-      align-items: right;
+      align-items: center;
     }
     .tabs li {
       margin-right: 20px;
@@ -43,7 +43,7 @@
 
 <nav>
   <span class="logo">Moon Insurance</span>
-  <ul class="tabs">
+  <ul>
     <!-- <ng-container *ngIf="this.auth.isAuth();then notAuthuser;else notAuthuser">
     </ng-container> -->
     <!-- <ng-template #notAuthuser> -->
@@ -54,7 +54,7 @@
       <!-- <li><a href="javascript:void(0);" routerLink="/dashboard">Dashboard</a></li> -->
       <li><a href="javascript:void(0);" routerLink="/home">Home</a></li>
       <li><a href="javascript:void(0);" routerLink="/adminlogin">AdminLogin</a></li>
-      <li><a href="javascript:void(0);" >Logout</a></li>
+      <li><a href="javascript:void(0);" routerLink="/home">Logout</a></li>
     <!-- </ng-template> -->
   </ul>
   <ul class="tabs">
