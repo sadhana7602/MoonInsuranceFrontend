@@ -1,0 +1,567 @@
+    1  sudo apt --only-upgrade install google-chrome-stable
+    2  sudo cloud-init clean
+    3  sudo vim ~/.bash_history 
+    4  cd home
+    5  cd TeststaticDemo.java
+    6  ls 
+    7  ls
+    8  cd eclipse-workplace
+    9  ls
+   10  cd eclipse-workspace
+   11  ls
+   12  mvn --version
+   13  cd ..
+   14  mkdir tcsmav
+   15  cd tcsmav
+   16  mvn --version
+   17  mvn
+   18  mvn archetype:generate
+   19  dir
+   20  tree/f
+   21  tree\f
+   22  cd ..
+   23  tree tcs-training
+   24  cd tcsmav
+   25  tree tcs-training
+   26  cd tcs-training
+   27  cd src
+   28  cd main
+   29  cd java
+   30  cd com
+   31  cd tcs
+   32  cd mvndemo
+   33  cd App.java
+   34  cd ..
+   35  mvn package
+   36  tree target
+   37  java -cp target/day7-mvn-training-0.0.1-SNAPSHOT.jar com.tcs.mvnexample.App
+   38  mkdir git-training
+   39  cd mkdir
+   40  git status
+   41  git status
+   42  git init
+   43  git status
+   44  git add hello.txt
+   45  git add hello
+   46  git status
+   47  git add math.java
+   48  git status
+   49  touch gitignore
+   50  rm gitignore
+   51  touch .gitignore
+   52  git status
+   53  git add hello.text
+   54  git status
+   55  git add hello.txt
+   56  git status
+   57  git commit -m "the first commit"
+   58  git config --global "sadhana070602@gmail.com"
+   59  git config --global user.email "sadhana070602@gmail.com"
+   60  git config --global user.name "sadhana7602"
+   61  git log
+   62  git commit math.java
+   63  git commit -m "the first commit"
+   64  git show 3013
+   65  git status
+   66  git show --diff
+   67  git add Math.java
+   68  git add math.java
+   69  git commit -m "the second commit"
+   70  git status
+   71  git show 5d7b
+   72  git reset math.java
+   73  cat math.java
+   74  git reset.
+   75  git show --diff
+   76  git checkout --math.java
+   77  git checkout -- math.java
+   78  cat math.java
+   79  git logs
+   80  git log
+   81  git checkout 5d7b
+   82  git log
+   83  git reset 3013
+   84  git checkout -- math.java
+   85  cat math.java
+   86  git init
+   87  git add README.md
+   88  echo "# tcsfsd" >> README.md
+   89  git add README.md
+   90  git commit -m "first commit"
+   91  git branch -M main
+   92  git remote add origin https://github.com/sadhana7602/tcsfsd.git
+   93  git push -u origin main
+   94  git version
+   95  git remote add origin https://github.com/sadhana7602/tcsfsd.git
+   96  git push https:// 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@github.com/sadhana7602/tcsfsd.git
+   97  git push  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@github.com/sadhana7602/tcsfsd.git
+   98  git push https://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@github.com/sadhana7602/tcsfsd.git
+   99  git push  https://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@github.com/sadhana7602/tcsfsd.git
+  100  git log
+  101  git status
+  102  touch Math.java
+  103  git status
+  104  echo "public class Math{}" >> Math.java
+  105  git add .
+  106  git commit -m "MAth.java commit"
+  107  git status
+  108  git push  https://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@github.com/sadhana7602/tcsfsd.git
+  109  git status
+  110  git pull 
+  111  ls -la
+  112  git log
+  113  git pull
+  114  git pull origin
+  115  git pull origin/main
+  116  git pull main
+  117  git pull
+  118  git pull https://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@github.com/sadhana7602/tcsfsd.git
+  119  git status
+  120  git add.
+  121  git add Day1CoreJava/
+  122  git add Day2CoreJavaOops/
+  123  git status
+  124  git commit -m "day1,day2"
+  125  git push https:// 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@github.com/sadhana7602/tcsfsd.git
+  126  git push https://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@github.com/sadhana7602/tcsfsd.git
+  127  git status
+  128  git add.
+  129  git add --all
+  130  git status
+  131  git commit -m "fsd program"
+  132  git push https://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@github.com/sadhana7602/tcsfsd.git
+  133  git status
+  134  git add --all
+  135  git commit -m "day10"
+  136  git push https://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@github.com/sadhana7602/tcsfsd.git
+  137  git status
+  138  git add --all
+  139  git commit -m "day 11,12"
+  140  git push https://
+  141  git push https://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@github.com/sadhana7602/tcsfsd.git
+  142  git log
+  143  git status
+  144  git add --all
+  145  git commit -m "day12,13"
+  146  git log
+  147  git status
+  148  git push https://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@github.com/sadhana7602/tcsfsd.git
+  149  .\mvnw spring-boot:run
+  150  .\mvn spring-boot:run
+  151  ./mvnw spring-boot:run
+  152  git status
+  153  git add --all
+  154  git commit -m "day13,14"
+  155  git push https://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@github.com/sadhana7602/tcsfsd.git
+  156  git log
+  157  git pull https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  158  git clone https://github.com/username/repository.git
+  159  git clone https://github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  160  git pull https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  161  git pull https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git master
+  162  git branch -M master
+  163  git pull https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git 
+  164  git branch -M master
+  165  git remote add origin <repository_url>
+  166  git remote add origin https://github.com/username/repository.git
+  167  git remote add origin https://github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git master
+  168  git remote add -m https://github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git 
+  169  git remote -v
+  170  git branch -M master
+  171  git remote add origin https://github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git 
+  172  git pull https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git master
+  173  git pull https://<username>:<access_token>@github.com/<owner>/<repository>.git <branch_name>
+  174  git pull https://sadhana7602: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/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git master
+  175  git pull https://sadhana7602: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/INSURANCEMANAGEMENTSYSTEM.git master
+  176  git pull https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git master
+  177  git pull https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git 
+  178  git branch -M master
+  179  git remote add origin https://github.com/john/myproject.git
+  180  git remote add origin https://github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  181  git pull https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git master
+  182  git remote -v
+  183  git remote add origin https://github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git master
+  184  git remote add -m https://github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  185  git remote add -master https://github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  186  git remote add --master https://github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  187  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git master
+  188  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git 
+  189  git pull https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git master 
+  190  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git 
+  191  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git master
+  192  git branch -M master
+  193  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git master
+  194  git remotw -v
+  195  git remote -v
+  196  git fetch origin master:tmp
+  197  git branch -M master
+  198  git fetch origin master:tmp
+  199  git status
+  200  git add --all
+  201  git commit -m "commit"
+  202  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git master
+  203  git fetch origin master:tmp
+  204  git pull origin master --allow-unrelated-histories
+  205  git clone -b master https://github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  206  git log
+  207  git remote -v
+  208  git remote add origin https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  209  git checkout master
+  210  git  push  https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  211  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  212  git checkout -b master1
+  213  git add .
+  214  git log
+  215  ls
+  216  cd INSURANCEMANAGEMENTSYSTEM/
+  217  git checkout master
+  218  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  219  git status
+  220  git add .
+  221  git commit -m "First Commit"
+  222  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  223  git init
+  224  touch application.properties
+  225  vim application.properties
+  226  cat application.properties
+  227  git add.
+  228  git commit -m "created"
+  229  git add .
+  230  git commit -m "created"
+  231  git status
+  232  cat application.properties
+  233  git add .
+  234  git commit -m "2"
+  235  git status
+  236  git add .
+  237  git commit -m  
+  238  git commit -m  "customer operations"
+  239  git push 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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  240  checkout branch master
+  241  git checkout branch master
+  242  git remote -v
+  243  git push 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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  244  git log
+  245  git remote add origin https://github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  246  git checkout branch master
+  247  git switch master
+  248  git push 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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  249  git add .
+  250  git commit
+  251  git push 
+  252  git init
+  253  git status
+  254  git push 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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  255  git push https//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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  256  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  257  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  258  ls
+  259  cd INSURANCEMANAGEMENTSYSTEM
+  260  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  261  git add .
+  262  git commit
+  263  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  264  git remote -v
+  265  git push -help
+  266  git init
+  267  git remote add origin https://github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  268  git remote -v
+  269  git add .
+  270  git status
+  271  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  272  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  273  git status
+  274  git remote -v
+  275  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  276  git push origin
+  277  git pull master 
+  278  git pull origin master
+  279  ls
+  280  git status
+  281  git commit -m "Second Commit"
+  282  git status
+  283  https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  284  git status
+  285  git init
+  286  git status
+  287  git add .
+  288  git log
+  289  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  290  git push --set-upstream https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git master
+  291  git status
+  292  git add .
+  293  git commit -m "customer"
+  294  git push --set-upstream https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git master
+  295  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  296  git init
+  297  git remote-v
+  298  git remote -v
+  299  git remote add origin https://github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  300  git remote -v
+  301  git add .
+  302  git status
+  303  git commit "test"
+  304  git commit -m "test"
+  305  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  306  git status
+  307  git status
+  308  git push https://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@github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  309  git checkout main
+  310  git remote add origin https://github.com/sadhana7602/tcsfsd.git
+  311  git add .
+  312  git commit -m "day15,day16"
+  313  git push https://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@github.com/sadhana7602/tcsfsd.git
+  314  git push https://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@github.com@github.com/sadhana7602/tcsfsd.git
+  315  ng serve
+  316  npm --version
+  317  ng version
+  318  ng new first-app
+  319  dir
+  320  cd first-app
+  321  git init
+  322  git add .
+  323  git status
+  324  git commit
+  325  git commit -m "first commit"
+  326  dir
+  327  cd
+  328  cd eclipse-workspace/
+  329  dir
+  330  cd project
+  331  dir
+  332  cd INSURANCEMANAGEMENTSYSTEM/
+  333  dir
+  334  clear
+  335  dir
+  336  cd INSURANCEMANAGEMENTSYSTEM/
+  337  dir
+  338  git status
+  339  git checkout -b master
+  340  git checkout master
+  341  git status
+  342  git checkout -b main
+  343  git status
+  344  git add .
+  345  git commit -m "first commit"
+  346  git init
+  347  git add .
+  348  git commit -m "c"
+  349  git branch -M main
+  350  git remote add origin https://github.com/sadhana7602/tcsfsd.git
+  351  git push https://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@github.com/sadhana7602/tcsfsd.git
+  352  git pull https://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@github.com/sadhana7602/tcsfsd.git
+  353  git push https://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@github.com/sadhana7602/tcsfsd.git
+  354  git pull https://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@github.com/sadhana7602/tcsfsd.git
+  355  git init
+  356  git add .
+  357  git status
+  358  git commit -m "trial"
+  359  git remote add origin https://github.com/sadhana7602/MoonInsurance.git
+  360  git push https://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@github.com/sadhana7602/MoonInsurance.git
+  361  git init
+  362  git add .
+  363  git commit
+  364  git commit -m "fsd"
+  365  git branch -M main
+  366  git push https://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@github.com/sadhana7602/tcsfsd.git
+  367  git push --set-upstream https://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@github.com/sadhana7602/tcsfsd.git main
+  368  git pull  https://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@github.com/sadhana7602/tcsfsd.git main
+  369  git push  https://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@github.com/sadhana7602/tcsfsd.git main
+  370  ng serve
+  371  cd first-app/
+  372  ng serve
+  373  ng g component binding
+  374  ng serve
+  375  ..
+  376  cd ..
+  377  cd first-app
+  378  ng g component binding
+  379  ng serve
+  380  ng new --no-standalone first-app
+  381  cd first-app
+  382  ng serve
+  383  cd first-app
+  384  ng serve
+  385  cd first-app
+  386  ng serve
+  387  ng g component trial
+  388  ng serve
+  389  cd first-app
+  390  ng serve
+  391  cd first-app
+  392  ng serve
+  393  git pull https://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@github.com/sadhana7602/MoonInsurance.git
+  394  git add .
+  395  git commit -m "adminall method"
+  396  git push https://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@github.com/sadhana7602/MoonInsurance.git
+  397  ng serve
+  398  cd first-app
+  399  ng g component http
+  400  ng serve
+  401  cd first-app
+  402  ng serve
+  403  cd first-app
+  404  ng g component crud/post
+  405  ng g component crud/update
+  406  ng g component crud/delete
+  407  ng g component crud/fetch
+  408  ng g service services/product
+  409  ng serve
+  410  git add .
+  411  git commit -m "email"
+  412  git push https://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@github.com/sadhana7602/MoonInsurance.git
+  413  cd first-app
+  414  ng serve
+  415  cd first-app
+  416  ng serve
+  417  cd first-app
+  418  ng serve
+  419  cd first-app
+  420  ng serve
+  421  cd first-app
+  422  ng serve
+  423  git pull https://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@github.com/sadhana7602/MoonInsurance.git
+  424  git add .
+  425  git commit -m "customerall method,purchased polcicy and registering customer mail format"
+  426  git push https://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@github.com/sadhana7602/MoonInsurance.git
+  427  cd first-app
+  428  ng serve
+  429  ng test
+  430  cd first-app
+  431  ng test
+  432  git pull https://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@github.com/sadhana7602/MoonInsurance.git
+  433  git add .
+  434  git commit -m "test"
+  435  git pull https://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@github.com/sadhana7602/MoonInsurance.git
+  436  git init
+  437  git remote add origin https://github.com/sadhana7602/MoonInsurance.git 
+  438  git pull https://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@github.com/sadhana7602/MoonInsurance.git
+  439  git fetch origin
+  440  git merge origin/<remote_branch_name>
+  441  git merge origin https://github.com/sadhana7602/INSURANCEMANAGEMENTSYSTEM.git
+  442  git add .
+  443  git commit -m "ok"
+  444  git pull https://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@github.com/sadhana7602/MoonInsurance.git
+  445  git push https://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@github.com/sadhana7602/MoonInsurance.git
+  446  git add .
+  447  git commit -m "Customer Interactions,claim validation"
+  448  git push https://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@github.com/sadhana7602/MoonInsurance.git
+  449  ng new --no-standalone weeklyassignment4
+  450  cd '/home/labuser/angular/weeklyassignment4'
+  451  ng g component getinvestor
+  452  ng g component addinvestor
+  453  ng serve
+  454  npm install
+  455  ng serve
+  456  git init
+  457  git add .
+  458  git commit -m "fsd"
+  459  git remote add origin https://github.com/sadhana7602/tcsfsd.git
+  460  git push https://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@github.com/sadhana7602/tcsfsd.git
+  461  java -jar zipkin.jar
+  462  ls
+  463  java -jar zipkin-server-3.0.6-exec.jar
+  464  cd ..
+  465  ls
+  466  ng new --no-standalone MoonInsurance
+  467  npm install bootstrap
+  468  ng g component login
+  469  ng g component signup
+  470  ng serve
+  471  npm install bootstrap
+  472  ng serve
+  473  npm install bootstrap
+  474  ng serve
+  475  npm install bootstrap
+  476  ng serve
+  477  npm install bootstrap
+  478  ng serve
+  479  git init
+  480  git add .
+  481  git commit -m "summa"
+  482  git branch -M main
+  483  git remote add origin https://github.com/AshAstro/MoonInsurance.git 
+  484  git branch -M main
+  485  git pull https://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@github.com/AshAstro/MoonInsurance.git
+  486  ng serve
+  487  npm install bootstrap
+  488  ng serve
+  489  git init
+  490  git remote add origin https://github.com/AshAstro/MoonInsurance.git 
+  491  git branch -M main
+  492  git pull https://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@github.com/AshAstro/MoonInsurance.git master
+  493  git pull https://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@github.com/sadhana7602/MoonInsurance.git
+  494  git pull https://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@github.com/sadhana7602/MoonInsurance.git master
+  495  ng serve
+  496  ng g component health
+  497  ng g component auto
+  498  ng g component homeproperty
+  499  ng serve
+  500  git add .
+  501  git commit -m "login signup"
+  502  git push https://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@github.com/sadhana7602/MoonInsurance.git
+  503  git init
+  504  git add .
+  505  git commit -m "ok"
+  506  git branch -M main
+  507  git remote add origin https://github.com/sadhana7602
+  508  /
+  509  git remote add origin https://github.com/sadhana7602
+  510  git remote add origin https://github.com/sadhana7602/MoonInsuranceFrontend.git
+  511  git push https://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@github.com/sadhana7602/MoonInsuranceFrontend.git master
+  512  git push https://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@github.com/sadhana7602/MoonInsuranceFrontend.git 
+  513  ng serve
+  514  npm install bootstrap
+  515  ng serve
+  516  ng g component buypolicy
+  517  ng serve
+  518  git add .
+  519  git commit -m "policy"
+  520  git push https://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@github.com/sadhana7602/MoonInsuranceFrontend.git 
+  521  git add       .
+  522  git commit -m "policy"
+  523  git push https://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@github.com/sadhana7602/MoonInsurance.git
+  524  git add       .
+  525  git commit -m "adminlogin"
+  526  git push https://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@github.com/sadhana7602/MoonInsuranceFrontend.git 
+  527  git add .
+  528  git commit -m "claim and validation"
+  529  git push https://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@github.com/sadhana7602/MoonInsurance.git
+  530  ng g component adminlogin
+  531  ng serve
+  532  ng g component admindashboard
+  533  ng serve
+  534  ng g component approveclaim
+  535  ng serve
+  536  ng g component trackclaim
+  537  ng serve
+  538  git add .
+  539  git commit -m "claim and validation"
+  540  git push https://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@github.com/sadhana7602/MoonInsuranceFrontend.git 
+  541  ng g component query
+  542  ng g component queryresponse
+  543  ng serve
+  544  git status
+  545  git add .
+  546  git commit -m "final"
+  547  git push https://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@github.com/sadhana7602/MoonInsurance.git
+  548  git add.
+  549  git add .
+  550  git commit -m "final"
+  551  git push https://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@github.com/sadhana7602/MoonInsuranceFrontend.git 
+  552  git add .
+  553  git commit -m "claim and validation"
+  554  git push https://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@github.com/sadhana7602/MoonInsurance.git
+  555  ng serve
+  556  git add .
+  557  git commit -m "final"
+  558  git push https://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@github.com/sadhana7602/MoonInsurance.git
+  559  git pull https://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@github.com/sadhana7602/MoonInsuranceFrontend.git 
+  560  git add .
+  561  git commit -m "final"
+  562  git push https://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@github.com/sadhana7602/MoonInsurance.git
+  563  git add .
+  564  git commit -m "final"
+  565  git push https://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@github.com/sadhana7602/MoonInsuranceFrontend.git 
+  566  history
+  567  history >> commandlinuxusedfsd
